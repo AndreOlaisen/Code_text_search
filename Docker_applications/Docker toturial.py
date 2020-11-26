@@ -18,14 +18,17 @@ msmarco_schema = Schema(
     rank_profiles = [RankProfile(name = "default", first_phase = "nativeRank(title, body)")]
 )
 
+
 from vespa.package import ApplicationPackage
 
 app_package = ApplicationPackage(name = "msmarco", schema=msmarco_schema)
 
+
+
 from vespa.package import VespaDocker
 
-path = "C:/Users/User/OneDrive - NTNU/NTNU/Prosjekt oppgave NLP/"
-name = "test_app/"
+path = "mnt/c/Users/User/OneDrive - NTNU/NTNU/Prosjekt oppgave NLP/"
+name = "virke_denne_gangen/"
 
 app_path = path + name
 
