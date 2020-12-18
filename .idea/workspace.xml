@@ -2,14 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33c1c849-2420-4d4b-b79b-8a2c52937d7a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Docker_applications/get_models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cloud_applications/.ipynb_checkpoints/Adding a simple ranking profile-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Cloud_applications/.ipynb_checkpoints/Adding a simple ranking profile-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cloud_applications/.ipynb_checkpoints/Vespa Cloud Toturial-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cloud_applications/Adding a simple ranking profile.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Cloud_applications/Adding a simple ranking profile.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cloud_applications/Vespa Cloud Toturial.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docker_applications/.ipynb_checkpoints/Pyvespa docker toturial-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Docker_applications/.ipynb_checkpoints/Pyvespa docker toturial-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docker_applications/Docker toturial.py" beforeDir="false" afterPath="$PROJECT_DIR$/Docker_applications/Docker toturial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docker_applications/Pyvespa docker toturial.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Docker_applications/Pyvespa docker toturial.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CORD 19/Data.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/CORD 19/Data.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CORD 19/qrels-covid_d5_j0.5-5 (1).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CORD 19/topics-rnd5 (1).xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker_applications/.ipynb_checkpoints/CORD-19 Docker annoteted data-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Docker_applications/.ipynb_checkpoints/CORD-19 Docker annoteted data-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker_applications/CORD-19 Docker annoteted data.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Docker_applications/CORD-19 Docker annoteted data.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Learning models/.ipynb_checkpoints/Logistic regression twin bert-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Learning models/.ipynb_checkpoints/Logistic regression twin bert-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Learning models/Logistic regression twin bert.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Learning models/Logistic regression twin bert.ipynb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,13 +20,30 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Docker_applications/Docker toturial.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
               <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Docker_applications/get_models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
+              <folding>
+                <element signature="e#0#49#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CORD 19/Data.ipynb">
+          <provider selected="true" editor-type-id="jupyter-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -63,20 +81,22 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Docker_applications/Docker toturial.py" />
+        <option value="$PROJECT_DIR$/Docker_applications/get_models.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="374" />
-    <option name="y" value="240" />
-    <option name="width" value="2252" />
-    <option name="height" value="1440" />
+    <option name="x" value="-14" />
+    <option name="y" value="-14" />
+    <option name="width" value="3026" />
+    <option name="height" value="2026" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -92,13 +112,17 @@
             <path>
               <item name="Code_text_search" type="b2602c69:ProjectViewProjectNode" />
               <item name="Code_text_search" type="462c0819:PsiDirectoryNode" />
+              <item name="CORD 19" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Code_text_search" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Code_text_search" type="462c0819:PsiDirectoryNode" />
               <item name="Docker_applications" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -169,18 +193,21 @@
       <workItem from="1605882536359" duration="1718000" />
       <workItem from="1606126135154" duration="1355000" />
       <workItem from="1606131302842" duration="3462000" />
+      <workItem from="1607163876809" duration="1573000" />
+      <workItem from="1607346611098" duration="2632000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8178000" />
+    <option name="totallyTimeSpent" value="12383000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1513" height="973" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26012355" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26698697" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Jupyter" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.30094787" />
@@ -226,6 +253,19 @@
       <provider selected="true" editor-type-id="jupyter-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Docker_applications/Pyvespa docker toturial.ipynb">
+      <provider selected="true" editor-type-id="jupyter-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Docker_applications/get_models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="e#0#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CORD 19/Data.ipynb">
       <provider selected="true" editor-type-id="jupyter-editor" />
     </entry>
   </component>
